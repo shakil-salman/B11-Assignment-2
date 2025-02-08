@@ -81,7 +81,7 @@
     font-weight: 500;
 }
 
-.btn-primary {
+.nav-btn {
     width: 200px;
     height: 50px;
     background-color: #FEA301;
@@ -98,7 +98,7 @@
 }
 @media screen and (max-width: 576px) {
     .logo-title,
-    .nav-links, .btn-primary {
+    .nav-links, .nav-btn {
         display: none;
     }
     
