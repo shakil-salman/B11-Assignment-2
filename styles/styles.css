@@ -104,15 +104,21 @@
 }
 /* banner styles */
 .banner{
-    margin-top: 122px;
+    margin-top: 22px;
     justify-content: center;
 }
 .banner-content{
+    width: 640px;
+    padding-top: 122px;
     margin-right: 50px;
 }
 .banner-title{
     font-weight: 700;
     font-size: 3.75rem;
+}
+.banner-image{
+    width: 470px;
+    height: 575px;
 }
 #h1-yellow{
     color: #FEA301;
@@ -142,6 +148,10 @@
     .banner{
         flex-direction: column-reverse;
         text-align: center;
+    }
+    .banner-content{
+        width: 100%;
+        padding: 10px;
     }
     .banner-title{
         font-size: 2rem;
