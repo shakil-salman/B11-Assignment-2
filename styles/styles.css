@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared style */
+.display-flex {
+    display: flex;
+}
+
+.text-yellow {
+    color: #FEA301;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.text-sky {
+    color: #01ACFD;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.text-light-green {
+    color: #05D4DF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.text-blue {
+    color: #5D58EF;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.text-white {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* header styles */
+
+/* navbar related styles */
+.logo-container {
+    max-width: 202px;
+    max-height: 62px;
+    align-items: center;
+}
+
+.logo-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 17px;
+}
+
+.navbar {
+    max-width: 1160px;
+    max-height: 102px;
+    border: 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-links {
+    margin: 16px 186px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-primary {
+    width: 200px;
+    height: 50px;
+    background-color: #FEA301;
+    border-radius: 12px;
+    border: 0;
+    padding: 10px 60px;
+}
+
+/* responsive media query */
+@media screen and (min-width: 576px){
+    #nav-icon-small-device{
+        display: none;
+    }
+}
+@media screen and (max-width: 576px) {
+    .logo-title,
+    .nav-links, .btn-primary {
+        display: none;
+    }
+    
+}
