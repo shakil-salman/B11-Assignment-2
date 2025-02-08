@@ -43,6 +43,19 @@
     font-weight: 600;
 }
 
+.btn-black{
+    width: 200px;
+    height: 50px;
+    background-color: #111111;
+    border-radius: 12px;
+    border: 0;
+    padding: 10px 47px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    
+}
+
 /* header styles */
 
 /* navbar related styles */
@@ -89,17 +102,47 @@
     border: 0;
     padding: 10px 60px;
 }
+/* banner styles */
+.banner{
+    margin-top: 122px;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    margin-right: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.75rem;
+}
+#h1-yellow{
+    color: #FEA301;
+}
+#h1-blue{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 1.25rem;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
 
 /* responsive media query */
+/* big device like computers*/
 @media screen and (min-width: 576px){
     #nav-icon-small-device{
         display: none;
     }
 }
+/* small device */
 @media screen and (max-width: 576px) {
     .logo-title,
     .nav-links, .nav-btn {
         display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
     }
     
 }
