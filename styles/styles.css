@@ -43,7 +43,7 @@
     font-weight: 600;
 }
 
-.btn-black{
+.btn-black {
     width: 200px;
     height: 50px;
     background-color: #111111;
@@ -53,7 +53,7 @@
     color: #FFFFFF;
     font-size: 1.25rem;
     font-weight: 600;
-    
+
 }
 
 /* header styles */
@@ -102,115 +102,226 @@
     border: 0;
     padding: 10px 60px;
 }
+
 /* banner styles */
-.banner{
+.banner {
     margin-top: 22px;
     justify-content: center;
 }
-.banner-content{
+
+.banner-content {
     width: 640px;
     padding-top: 122px;
     margin-right: 50px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 3.75rem;
 }
-.banner-image{
+
+.banner-image {
     width: 470px;
     height: 575px;
 }
-#h1-yellow{
+
+#h1-yellow {
     color: #FEA301;
 }
-#h1-blue{
+
+#h1-blue {
     color: #01ACFD;
 }
-.banner-description{
+
+.banner-description {
     font-size: 1.25rem;
     margin-top: 14px;
     margin-bottom: 24px;
 }
+
 /* Curriculum Section */
 
-.curriculum-section{
+.curriculum-section {
     background-image: url("../assets/bg-1.png");
     background-size: cover;
-    height: 300px;
+    height: 880px;
 }
-.section-title{
+
+.section-title {
     font-weight: 700;
     font-size: 2.8rem;
     text-align: center;
     padding-top: 60px;
 }
-.curriculum-card-1{
+
+.curriculum-container {
+    justify-content: center;
+}
+
+.curriculum-card-1 {
     width: 370px;
     height: 480px;
     padding-top: 52px;
     text-align: center;
     margin-right: 28px;
     border-radius: 19px;
-    background-image:  linear-gradient(#DEF5FF, #FFFFFF);
+    background-image: linear-gradient(#DEF5FF, #FFFFFF);
 }
-.curriculum-card-2{
+
+.curriculum-card-2 {
     width: 370px;
     height: 480px;
     padding-top: 52px;
     text-align: center;
     margin-right: 28px;
     border-radius: 19px;
-    background-image:  linear-gradient(#FFF4DC, #FFFFFF);
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
 }
-.curriculum-card-3{
+
+.curriculum-card-3 {
     width: 370px;
     height: 480px;
     padding-top: 52px;
     text-align: center;
     margin-right: 28px;
     border-radius: 19px;
-    background-image:  linear-gradient(#F2E8FF, #FFFFFF);
+    background-image: linear-gradient(#F2E8FF, #FFFFFF);
 }
-.curriculum-title{
+
+.curriculum-title {
     font-weight: 700;
     font-size: 1.5rem;
 }
-.curriculum-description{
+
+.curriculum-description {
     font-weight: 500;
     font-size: 1rem;
 }
+
+#forward-backward {
+    margin: 10px 850px;
+}
+
+.forward {
+    background-color: #FEA301;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.backward {
+    background-color: #FEA301;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* stories section */
+.stories-section {
+    width: 1440px;
+    height: 1000px;
+    margin: 0 auto;
+    background-image: linear-gradient(#FFFFFF, rgba(254, 163, 1, 0.3)), url("../assets/bg-1.png");
+
+}
+
+.stories-container {
+    width: 1440px;
+    margin-left: 120px;
+    
+}
+
+.stories-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.story-1 {
+    width: 540px;
+    height: 630px;
+    border-radius: 16px;
+    border: 0.2px solid black;
+    background-color: #FFFFFF;
+}
+
+.story-1-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 40px 50px;
+}
+
+.story-1-description {
+    margin: 0 50px;
+}
+
+.story-2 {
+    width: 290px;
+    height: 300px;
+    border-radius: 16px;
+    border: 0.2px solid black;
+    background-color: #FFFFFF;
+}
+
+.story-2-title {
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 40px 50px;
+}
+
 /* responsive media query */
 /* big device like computers*/
-@media screen and (min-width: 576px){
-    #nav-icon-small-device{
+@media screen and (min-width: 576px) {
+    #nav-icon-small-device {
         display: none;
     }
 }
+
 /* small device */
 @media screen and (max-width: 576px) {
+
     .logo-title,
-    .nav-links, .nav-btn {
+    .nav-links,
+    .nav-btn {
         display: none;
     }
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
         text-align: center;
     }
-    .banner-content{
+
+    .banner-content {
         width: 100%;
         padding: 10px;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 2rem;
         white-space: nowrap;
     }
-    .banner-description{
+
+    .banner-description {
         font-size: 0.9rem;
         white-space: nowrap;
     }
-    .curriculum-container{
+
+    .curriculum-container {
         flex-direction: column;
         align-items: center;
     }
-    
+
+    #forward-backward {
+        margin: 10px 150px;
+    }
 }
